@@ -1,2 +1,1 @@
-# aoijs-bos-altyapi
-aoi.js ile yapılmış temiz altyapı
+# aoi.js boş altyapı
