@@ -8,10 +8,14 @@ const bot = new discord.Bot({
 bot.onMessage()
 bot.loadCommands(`./komutlar/`)
 /////////////////////////
+//Bu projede komutları server.js veya komutlar klasörüne yazabilirsiniz
+//Durum ayarlama d.js ile aynı yapıya sahip
 
+
+//----------------------------------
 //durum ayarlama
 bot.status({
-  text: "Developed By ponche#6600", 
+  text: "Developed By AnılK", 
   type: "PLAYING", 
   status: "idle", 
   time: 12 
@@ -19,8 +23,8 @@ bot.status({
 
 //değişken ayarlama
 bot.variables({
-isim: "Ponche",
-yaş: 15
+isim: "Anıl",
+yaş: 12345
 })
 ////////////Komutlar///////
 
